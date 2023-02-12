@@ -8,6 +8,7 @@
 body {
   font-family: sans-serif;
   color: white;
+  background: #131212;
 }
 
 i {
@@ -53,7 +54,7 @@ i {
 }
 
 .header__button {
- /*  background-color: var(--preto);
+  /*  background-color: var(--preto);
   border: none;
   border-radius: 20px;
   padding: 14px;
@@ -70,10 +71,8 @@ i {
   border: 1px solid;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all .3s;
-  box-shadow: 4px 4px 10px #c5c5c5,
-             -4px -4px 10px #c5c5c5;
-
+  transition: all 0.3s;
+  box-shadow: 4px 4px 10px #c5c5c5, -4px -4px 10px #c5c5c5;
 }
 .header__button:hover {
   background-color: white;
@@ -105,5 +104,23 @@ i {
   .container__teste i {
     display: none;
   }
-  
 }
+
+.flex__container-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+ 
+}
+
+.teste__main {
+  display: flex;
+  gap: 2rem;
+}
+
+/* abla abla */
+/* abla abla */
+/* sera que foi ? */
+/* rafel e hetero */
