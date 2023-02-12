@@ -1,0 +1,109 @@
+:root {
+  --amarelo: rgb(144, 121, 0);
+  --preto: #131212;
+  --branco: #ffffff;
+  --laranja: #ffb300;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+i {
+  font-size: 12px;
+}
+
+.batata {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--amarelo);
+  width: 100%;
+  max-height: 125px;
+}
+
+.container__teste {
+  /* line-height: 20px; */
+  font-size: 16px;
+}
+
+.container__teste p {
+  font-weight: 600;
+}
+
+.icone {
+  width: 2rem;
+}
+
+.logo {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+
+.contatos {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.header__button {
+ /*  background-color: var(--preto);
+  border: none;
+  border-radius: 20px;
+  padding: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer; */
+
+  color: white;
+  padding: 0.7em 1.7em;
+  font-size: 17px;
+  font-weight: 550;
+  border-radius: 1px;
+  background: black;
+  border: 1px solid;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .3s;
+  box-shadow: 4px 4px 10px #c5c5c5,
+             -4px -4px 10px #c5c5c5;
+
+}
+.header__button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 705px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .logo {
+    width: 100px;
+    height: 80px;
+    padding: 10px 0px;
+  }
+
+  .icone {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contatos {
+    align-items: center;
+  }
+
+  .container__teste i {
+    display: none;
+  }
+  
+}
