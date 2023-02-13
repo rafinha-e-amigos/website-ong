@@ -112,7 +112,6 @@ i {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
- 
 }
 
 .teste__main {
@@ -120,7 +119,7 @@ i {
   gap: 2rem;
 }
 
-/* abla abla */
-/* abla abla */
-/* sera que foi ? */
-/* rafel e hetero */
+.flex__container {
+  display: flex;
+  gap: 100rem;
+}
